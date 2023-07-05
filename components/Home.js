@@ -52,7 +52,7 @@ function Home() {
   });
   // Movies list
   useEffect(() => {
-    fetch("https://mymoviz-backend-puce.vercel.app/movies")
+    fetch("https://https://mymoviz-backend-umber.vercel.app/movies")
       .then((response) => response.json())
       .then((data) => {
         setMoviesData(data.movies);
